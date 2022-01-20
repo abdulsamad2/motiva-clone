@@ -10,18 +10,28 @@
     <title>Motiva</title>
   </head>
   <body>
-    <header>
-      <!-- Top bar -->
-      <div class="bg-[#2a2e37] py-3 text-white space-x-6 text-center text-xs">
+    <!-- Top bar -->
+    <div
+      class="bg-[#2a2e37] py-3 text-white text-center text-xs sm:flex justify-around"
+    >
+      <div class="socials hidden sm:block">
+        <img src="/img/logo.png" alt="" />
+      </div>
+      <div class="space-x-6">
         <a href="#">Privacy Policy</a>
         <a href="#">Request Quote</a>
-        <a href="#">FAQ</a>
+        <a href="#">FAQ</a>.
       </div>
-      <!-- top bar ends here -->
+    </div>
 
-      <!-- main nav -->
-      <nav class="my-8 w-4/5 mx-auto flex justify-between items-center">
-        <img src="/img/logo.png" alt="" class="h-5" />
+    <!-- top bar ends here -->
+
+    <!-- main nav -->
+    <div class="bg-[url('img/bg-subheader-1.jpg')] pt-1 pb-60 sm:block hidden">
+      <nav
+        class="my-8 w-11/12 sm:w-7/12 mx-auto flex justify-between items-center text-center"
+      >
+        <img src="/img/logo.png" alt="" class="h-6" />
         <div class="">
           <img
             class="w-7 p-1 bg-green-500 sm:hidden"
@@ -30,8 +40,15 @@
           />
         </div>
       </nav>
+
       <!-- main nav ends here -->
-    </header>
-    <!-- header ends here -->
+
+      <!-- header ends here -->
+      <div
+        class="bg-[url('img/bg-subheader-1.jpg')] py-32 bg-center bg-cover sm:hidden"
+      >
+        <p class="text-white font-bold text-5xl text-center">All Events</p>
+      </div>
+    </div>
   </body>
 </html>
