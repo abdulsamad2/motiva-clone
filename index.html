@@ -9,7 +9,7 @@
 
     <title>Motiva</title>
   </head>
-  <body>
+  <body class="overflow-hidden">
     <!-- Top bar -->
     <div
       class="bg-[#2a2e37] py-3 text-white text-center text-xs sm:flex justify-around"
@@ -28,9 +28,9 @@
     <!-- top bar ends here -->
 
     <!-- main nav -->
-    <div id="btn" class="bg-[url('img/bg-subheader-1.jpg')] pt-1 pb-60">
+    <div id="btn" class="">
       <nav
-        class="my-8 w-11/12 sm:w-7/12 mx-auto flex justify-between items-center text-center"
+        class="my-8 w-full sm:w-full sm:mx-16 flex justify-around items-center text-center"
       >
         <img src="/img/logo.png" alt="" class="h-6 sm:hidden block" />
         <img src="/img/logo-light.png" alt="" class="h-6 hidden sm:block" />
@@ -48,15 +48,13 @@
             <a href="">Home</a>
           </div>
         </div>
+        <div class="hidden"></div>
       </nav>
 
       <!-- main nav ends here -->
 
       <!-- header ends here -->
-      <div
-        id="bg-hide-desktop"
-        class="bg-[url('img/bg-subheader-1.jpg')] py-32 bg-center block bg-cover"
-      >
+      <div id="bg-hide-desktop" class="">
         <p class="text-white font-medium text-5xl text-center mt-32">
           All Events
         </p>
