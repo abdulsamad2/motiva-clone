@@ -11,7 +11,7 @@ if (window.innerWidth <= "640") {
     "bg-[url('img/bg-subheader-1.jpg')] py-32 bg-center block bg-cover"
   );
 } else {
-  btn.setAttribute("class", "bg-[url('img/bg-subheader-1.jpg')] pt-1 pb-60");
+  btn.setAttribute("class", "bg-[url('img/bg-subheader-1.jpg')] pt-1 pb-36");
 
   bgDhide.removeAttribute("class");
 }
@@ -24,7 +24,7 @@ window.addEventListener("resize", function () {
       "bg-[url('img/bg-subheader-1.jpg')] py-32 bg-center block bg-cover"
     );
   } else {
-    btn.setAttribute("class", "bg-[url('img/bg-subheader-1.jpg')] pt-1 pb-60");
+    btn.setAttribute("class", "bg-[url('img/bg-subheader-1.jpg')] pt-1 pb-36");
 
     bgDhide.removeAttribute("class");
   }
